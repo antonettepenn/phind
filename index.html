@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See World With Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .main-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .travel-location {
+            margin-bottom: 20px;
+        }
+        .travel-location img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .booking-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .booking-form input, .booking-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .booking-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Travel</a>
+        <a href="#">Book Flights</a>
+    </header>
+
+    <div class="main-section">
+        <div class="travel-location">
+            <img src="location1.jpg" alt="Location 1">
+            <h2>Location 1</h2>
+            <p>Description of Location 1.</p>
+        </div>
+        <div class="travel-location">
+            <img src="location2.jpg" alt="Location 2">
+            <h2>Location 2</h2>
+            <p>Description of Location 2.</p>
+        </div>
+        <!-- Add more travel locations as needed -->
+    </div>
+
+    <div class="booking-form">
+        <h2>Book Your Flight</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select>
+                <option value="">Select Destination</option>
+                <option value="location1">Location 1</option>
+                <option value="location2">Location 2</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="date" placeholder="Departure Date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 See World With Us. All rights reserved.
+    </div>
+</body>
+</html>
